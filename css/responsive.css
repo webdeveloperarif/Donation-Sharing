@@ -1,0 +1,675 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0px 12px;
+    }
+
+    .header_section {
+        padding: 10px 0px 20px 0px;
+    }
+    .search_icon {
+        text-align: left;
+        width: 40px;
+    }
+
+    .about_taital_main {
+        padding-left: 15px;
+        margin-top: 40px;
+    }
+
+    .about_text {
+        padding: 10px 0px;
+    }
+
+    .donate_bt a {
+        width: 120px;
+        margin: 0px 2px;
+    }
+
+    .give_taital {
+        padding-top: 20px;
+    }
+
+    .events_section_1 {
+        padding-left: 100px;
+    }
+
+    .donate_right {
+        width: 72%;
+        padding-top: 10px;
+        float: left;
+        padding-left: 20px;
+    }
+
+    .footer_menu li {
+        font-size: 15px;
+    }
+
+    .footer_text {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header_section {
+        padding: 10px 0px 20px 0px;
+    }
+    .search_icon {
+        display: none;
+    }
+    button.donate_btn {
+        display: none;
+    }
+    .navbar-brand {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        margin-top: 0px;
+    }
+    .banner_taital {
+        width: 65%;
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .donation_box {
+        width: 90%;
+        margin-top: 0px;
+    }
+    .mail_box {
+        padding: 0px 20px 10px 10px;
+    }
+    .box_main {
+        margin-bottom: 30px;
+    }
+
+    .lorem_text {
+        width: 100%;
+    }
+
+    .about_taital_main {
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+
+    .about_text {
+        padding: 0px 0px;
+    }
+
+    .about_img img {
+        height: 400px;
+    }
+
+    .alteration_text {
+        margin: 0px;
+    }
+
+    .donate_bt a {
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .give_taital{
+        padding-top: 0px;
+    }
+
+    .ipsum_text {
+        font-size: 14px;
+        padding-top: 0px;
+    }
+
+    .raised_text{
+        padding-top: 0px;
+    }
+
+    .news_img img {
+        height: 430px;
+    }
+
+    .events_section_2 {
+        width: 100%;
+    }
+
+    .events_section_1 {
+        padding-left: 0;
+    }
+
+    .give_taital_1 {
+        font-size: 24px;
+    }
+
+    .img_7 {
+        height: 320px;
+    }
+
+    .donate_taital_main {
+        padding: 40px 0px 60px 0px;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 0px;
+        top: 100%;
+    }
+
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        right: 40px;
+        top: 100%;
+        left: initial;
+    }
+
+    .donate_right {
+        width: 70%;
+        padding-left: 20px;
+        float: left;
+        padding-top: 0px;
+    }
+
+    .dummy_text {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .header_section {
+        padding: 10px 0px 20px 0px;
+    }
+    .search_icon {
+        display: none;
+    }
+    button.donate_btn {
+        display: none;
+    }
+    .navbar-brand {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        margin-top: 0px;
+    }
+    .banner_taital {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .fundraise_section {
+        padding: 50px 0px;
+        margin-top: 40px;
+    }
+    .banner_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .banner_section {
+        background-size: cover;
+    }
+    .donation_box {
+        width: 100%;
+    }
+    .mail_text {
+        width: 95%;
+    }
+    .mail_box {
+        display: grid;
+    }
+    .box_main {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .about_taital_main {
+        padding-left: 0;
+    }
+    .padding_right0 {
+        padding: 0px;
+    }
+    .about_taital {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .about_img {
+        padding-top: 40px;
+    }
+    .mission_taital {
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    .mission_text {
+        padding-left: 0px;
+    }
+    .mission_section_2 {
+        padding-top: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .image {
+        height: 320px;
+        margin-top: 20px;
+        min-height: 0;
+    }
+    .donate_bt a {
+        width: 115px;
+    }
+    .some_text {
+        font-size: 17px;
+    }
+    .text {
+        width: 100%;
+    }
+
+    .give_taital {
+        padding-top: 30px;
+    }
+
+    .img_7 {
+        height: 240px;
+    }
+    .news_taital {
+        font-size: 30px;
+    }
+    .raised_text {
+        font-size: 17px;
+    }
+    .readmore_btn a {
+        width: 130px;
+    }
+    .readmore_btn_1 {
+        margin-left: 10px;
+    }
+    .give_taital_1 {
+        font-size: 18px;
+    }
+    .events_section_2 {
+        width: 100%;
+    }
+    .raised_text_1 {
+        font-size: 17px;
+    }
+    .donate_taital {
+        font-size: 28px;
+    }
+    .donate_section {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #main_slider a.carousel-control-prev {
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        display: none;
+    }
+    .address_text {
+        width: 100%;
+        padding: 5px 100px 5px 0px;
+    }
+    .get_bt {
+        width: 34%;
+        text-align: right;
+    }
+    .donate_left {
+        width: 100%;
+    }
+    .fundraise_section_main {
+        width: 90%;
+    }
+
+    .events_section_1{
+        padding-left: 0px;
+    }
+
+    .goal_text {
+        padding-left: 4px;
+    }
+
+    .client_name_text {
+        padding-top: 20px;
+        display: flex;
+    }
+    .donate_taital_main {
+        padding: 40px 20px 60px 0px;
+    }
+
+    .footer_logo {
+        margin-top: 80px;
+    }
+
+    .footer_taital {
+        padding-top: 20px;
+    }
+
+    .btn_main {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .search_icon {
+        display: none;
+    }
+    button.donate_btn {
+        display: none;
+    }
+    .navbar-brand {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .header_section {
+        padding: 10px 0px 20px 0px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        margin-top: 0px;
+    }
+    .banner_taital {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .fundraise_section {
+        padding: 50px 0px;
+        margin-top: 40px;
+    }
+    .banner_text {
+        width: 100%;
+        font-size: 14px;
+    }
+    .banner_section {
+        background-size: cover;
+    }
+    .donation_box {
+        width: 100%;
+    }
+    .mail_text {
+        width: 95%;
+    }
+    .mail_box {
+        display: grid;
+    }
+    .box_main {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .about_taital_main {
+        padding-left: 0;
+    }
+    .padding_right0 {
+        padding: 0px;
+    }
+    .about_taital {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .about_img {
+        padding-top: 40px;
+    }
+    .mission_taital {
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    .mission_text {
+        padding-left: 0px;
+    }
+    .mission_section_2 {
+        padding-top: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .image {
+        height: 320px;
+        margin-top: 20px;
+        min-height: 0;
+    }
+    .donate_bt a {
+        width: 115px;
+    }
+    .some_text {
+        font-size: 17px;
+    }
+    .text {
+        width: 100%;
+    }
+
+    .give_taital {
+        padding-top: 30px;
+    }
+
+    .img_7 {
+        height: 240px;
+    }
+    .news_taital {
+        font-size: 30px;
+    }
+    .raised_text {
+        font-size: 17px;
+    }
+    .readmore_btn a {
+        width: 130px;
+    }
+    .readmore_btn_1 {
+        margin-left: 10px;
+    }
+    .give_taital_1 {
+        font-size: 18px;
+    }
+    .events_section_2 {
+        width: 100%;
+    }
+    .raised_text_1 {
+        font-size: 17px;
+    }
+    .donate_taital {
+        font-size: 28px;
+    }
+    .donate_section {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #main_slider a.carousel-control-prev {
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        display: none;
+    }
+    .address_text {
+        width: 100%;
+        padding: 5px 100px 5px 0px;
+    }
+    .get_bt {
+        width: 34%;
+        text-align: right;
+    }
+    .donate_left {
+        width: 100%;
+    }
+    .fundraise_section_main {
+        width: 90%;
+    }
+
+    .events_section_1{
+        padding-left: 0px;
+    }
+
+    .goal_text {
+        padding-left: 4px;
+    }
+
+    .client_name_text {
+        padding-top: 20px;
+        display: flex;
+    }
+    .donate_taital_main {
+        padding: 40px 20px 60px 0px;
+    }
+
+    .footer_logo {
+        margin-top: 0px;
+    }
+
+    .footer_taital {
+        padding-top: 20px;
+    }
+
+}
+
